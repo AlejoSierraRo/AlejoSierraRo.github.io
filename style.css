@@ -171,3 +171,59 @@ main {
     margin-top: 440px;
   }
 }
+
+@media screen and (max-width: 412px) {
+  .logo {
+    padding: 0px;
+    gap: 40px;
+    position: absolute;
+    width: 120px;
+    height: 48px;
+    left: 40px;
+    top: 40px;
+  }
+
+  .titulo-centralizado {
+    display: none;
+  }
+
+  main {
+    display: inline-block;
+    margin-bottom: 50px;
+    margin-left: 60px;
+  }
+
+  .text-area-left {
+    position: absolute;
+    width: 343px;
+    height: 248px;
+    left: 16px;
+    top: 32px;
+  }
+
+  .informacion {
+    width: 200px;
+    height: 18px;
+  }
+
+  .text-area-right {
+    position: absolute;
+    width: 300px;
+    height: 450px;
+    margin-left: 2px;
+
+    top: 630px;
+  }
+
+  .botones {
+    display: contents;
+    left: 240px;
+  }
+
+  .bton-copiar {
+    margin-left: 0px;
+    margin-top: 380px;
+    position: absolute;
+    width: 250px;
+  }
+}
