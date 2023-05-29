@@ -172,7 +172,7 @@ main {
   }
 }
 
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 420px) {
   .logo {
     padding: 0px;
     gap: 40px;
